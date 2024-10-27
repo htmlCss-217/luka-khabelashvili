@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+body{
+    background-image: url("/scenic-view-snow-covered-peaks-aiguille-verte-french-alps\ 1.png");
+    width:99.5%;
+    height: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.logo{
+    display: flex;
+    margin: 15px;
+    align-items: center;
+}
+.logo img{
+    border-radius: 30px;
+    margin: 10px;
+}
+nav { 
+    display: flex;
+    gap: 40px;
+    margin-right: 70px;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 10px;
+}
+nav a{
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    cursor: pointer;
+    background-color:gray;
+    border-radius: 6px;
+}
+#singup{
+    background-color: whitesmoke;
+    border: 1px white;
+    border-radius: 3px;
+    font-size: 23px;
+    padding: 3px;
+}
+.welcome{
+    font-family: "Poppins", sans-serif;
+    margin-left: 40px;
+    font-size: 30px;
+    margin-right: 800px;
+    font-weight: 500;
+    margin-top: 90px;
+}
+.around img{
+    position: absolute;
+    width: 400px;
+    height: 330px;
+    bottom: 400px;
+    left: 1007px;
+    border-radius: 39px;
+    box-shadow: 4px 4px rgb(70, 95, 186);
+}
+.countries{
+    margin-top: 180px;
+    margin-left: 120px;
+    display: flex;
+    gap:120px;    
+}
+.countries img{
+    border-radius: 20px;
+}
+.countries img:hover{
+    cursor: pointer;
+}
+.countriess{
+    color: gray;
+    display: flex;
+    gap: 350px;
+    margin-left: 210px;
+}
+.countriess p{
+    border: 3px solid whitesmoke;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px wheat;
+}
+.countriess p:hover{
+    background-color: rgb(109, 228, 109);
+    border: 3px solid rgb(109, 228, 109);
+    cursor: pointer;    
+}
+.abouttravel{
+    font-size: 27px;
+}
+footer{
+    background-color: rgb(21, 21, 21);
+    margin-bottom: 0px;
+    height: 50px;
+}
+.footernav{
+    display: flex;
+    padding-left: 250px;
+    gap:300px;
+}
+.footernav a{
+    color:rgb(148, 148, 148);
+    text-decoration: none;
+    font-size: 20px;
+}
+.footernavv{
+    display: flex;
+    padding-left: 460px;
+    gap:300px;
+    align-items: center;
+    background-color:rgb(21, 21, 21);
+}
+.footernavv a{
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+    font-size:20px;
+}
+#subscribe{
+   color: rgb(148, 148, 148);
+}
+.footernavvv{
+    display: flex;
+    padding-left: 400px;
+    gap:293px;
+    align-items: center;
+    background-color:rgb(21, 21, 21);
+}
+.footernavvv a{
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+    font-size:20px;
+}
