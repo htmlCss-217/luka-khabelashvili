@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    background-color: black;
+}
+header{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h2{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+}
+nav{
+    display: flex;
+    gap: 40px;
+    margin-right:50px ;
+}
+nav a{
+    color: rgb(158, 156, 156);
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: rgb(52, 51, 51) ;
+    border-radius: 5px;
+}
+.main{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: -65px;
+}
+.main p{
+    color: white;
+    font-size: 200px;
+    width: 684px;
+    margin-left: 80px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.new{
+    color: aliceblue;
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 29px;
+    background-color: rgb(43, 43, 43);
+    border-radius: 8px;
+    width: 610px;
+    height: 40px;
+}
+#new{
+    background-color: green;
+    padding: 6px;
+    border-radius: 15px;
+}
+#exercises{
+    color: whitesmoke;
+    font-size: 50px;
+    margin-left: 103px;
+    margin-top: -100px;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 2px 2px white;
+}
+.workouts{
+    display: flex;
+    gap: 60px;
+    margin-left: 140px;
+}
+.workouts img{
+    border-radius: 10px;
+    box-shadow: 2px 3px rgb(159, 198, 249);
+}
+.workoutsplan{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    font-size: 50px;
+    gap: 300px;
+    margin-left: 190px;
+    margin-top: -98px;
+}
+#push{
+    margin-left: 20px;
+}
+.time{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    gap: 350px;
+    margin-left: 469px;
+    font-size: 25px;
+    margin-top: -120px;
+}
+.time p{
+    background-color: black;
+    border-radius: 10px;
+}
+#second{
+    margin-left: 40px;
+}
+#third{
+    margin-left: 40px;
+}
+.workouts img:hover{
+    cursor: pointer;
+}
+.made{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 100px;
+    width: 400px;
+    margin-left: 150px;
+}
+.madeabout{
+    color: white;
+    font-size: 55px;
+    width: 700px;
+    margin-right: 50px;
+    background-color: rgb(23, 23, 23);
+    border-radius: 15px;
+    padding: 30px;
+}
+.madeabout p{
+    font-family: "Bebas Neue", sans-serif;
+
+}
+.all{
+    display: flex;
+   align-items: center;
+   gap: 140px;
+}
+#get{
+    background-color: green;
+    font-size: 40px;
+    width: 170px;
+    padding: 3px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 2.5px rgb(1, 58, 1);
+}
+#get:hover{
+    cursor: pointer;
+}
+.coachs{
+    display: flex;
+    gap: 40px;
+    background-color: rgb(51, 32, 2);
+    padding: 10px;
+}
+.ting img{
+    width: 300px;
+    height: 250px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.ting p{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    width: 180px;
+    font-size: 20px;
+    margin-left: 60px;
+}
+.ting:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.x p{
+    color: white;
+    width: 180px;
+    margin-left: 30px;
+}
+.x img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.x:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.x{
+    margin-top: 200px;
+}
+.m img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.m p{
+    color: white;
+    width: 170px;
+    margin-left: 30px;
+}
+.m:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.b{
+    margin-top: 200px;
+}
+.b img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.b p{
+    color: white;
+    width: 170px;
+    margin-left: 30px;
+}
+.b:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.footer1{
+    display: flex;
+    gap: 340px;
+    align-items: center;
+}
+#first{
+    color: gray;
+    font-size: 40px;
+    margin-left: 180px;
+}
+#w{
+    color: white;
+    font-size: 40px;
+}
+.line{
+     margin-left: 160px;
+    margin-top: -42px;
+    
+}
+.footer1:hover{
+    background-color: rgb(51, 50, 50);
+    cursor: pointer;
+}
