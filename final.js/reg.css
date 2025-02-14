@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    
+    background-color: rgb(101, 0, 0) ;
+}
+
+.logo h2{
+    background-color: black;
+    font-family: "Poppins", serif;
+    color: white;
+    text-shadow: 0 0 15px rgb(255, 255, 255);
+    box-shadow: 0 0 10px white;
+    margin-left: 25px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.reg {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.reg h3 {
+    text-align: center;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:green;
+}
+
+footer{
+    margin-left: -8px;
+    background-color: darkgray;
+    width:101% ;
+    height: 200px;
+    margin-top: 70px;
+}
+.footA{
+    display: flex;
+    gap: 160px;
+    margin-left: 100px;
+   
+}
+.footA a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+}
+.footA a:hover{
+    color: gray;
+}
