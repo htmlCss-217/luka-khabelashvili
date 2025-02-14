@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    
+    background-color: rgb(101, 0, 0) ;
+}
+/*main{
+   background-image: url(/DALL·E\ 2025-02-08\ 15.59.37\ -\ A\ perfectly\ balanced\,\ evenly\ distributed\ color\ background\ for\ an\ online\ store\ specializing\ in\ boxing\ equipment.\ The\ background\ features\ a\ smooth\ and\ s.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}*/
+header{
+    background-image: url(/photos/DALL·E\ 2025-02-08\ 15.59.37\ -\ A\ perfectly\ balanced\,\ evenly\ distributed\ color\ background\ for\ an\ online\ store\ specializing\ in\ boxing\ equipment.\ The\ background\ features\ a\ smooth\ and\ s.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 99.9%;
+    height: 600px;
+    background-attachment: fixed;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 20px;
+    
+    margin-top: -20px;
+    
+}
+.logo h2{
+    background-color: black;
+    font-family: "Poppins", serif;
+    color: white;
+    text-shadow: 0 0 15px rgb(255, 255, 255);
+    box-shadow: 0 0 10px white;
+    margin-left: 25px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.navbar{
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+    margin-right: -60px;
+    
+}
+    
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 15px rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Poppins", serif;
+}
+.slider{
+    margin: 70px;
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 70px;
+}
+.slider img{
+    width: 15%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.684);
+    transition: all ease-in-out 0.5s;
+    box-shadow: 0 0 10px rgba(255, 217, 0, 0.789);
+}
+.slider img:hover{
+    width:30% ;
+}
+p{
+    color: aliceblue;
+}
+nav{
+    display: flex;
+    gap:60px;
+    align-items: center;
+    background-color: white;
+    width: 99.9%;
+    height: 50px;
+    border-radius: 15px;
+    margin-top:-130px;
+}
+nav a{
+  margin-left: 60px;
+  text-decoration: none;
+  color: gray;
+  font-size: 18px
+}
+nav a:hover{
+    color: rgb(81, 80, 80);
+    background-color: rgb(185, 185, 185);
+    border-radius: 9px;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    
+}
+.container {
+    display: flex;
+    gap: 10px; 
+    margin-left: 10px;
+ }
+ .item img {
+     width:230px ;
+     height: 220px;
+     border-radius: 15px;
+     box-shadow: 0 0 10px rgba(255, 217, 0, 0.789);
+ }
+ .item img:hover{
+     cursor: pointer;
+ 
+ }
+ .item p { 
+     margin-top: 10px; 
+     font-weight: 900;
+     width: 262px;
+     font-size: 20px;
+ }
+ .search{
+    padding-top: 20px;
+    display: block;
+ }
+ #Welcome{
+    position: absolute;
+    right:1000px;
+    top: 200px;
+    width: 412px; 
+    font-weight: 600;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.171);
+    border-radius: 15px;
+    font-family: "Poppins", serif;
+}
+.first{
+    display: flex;
+}
+.benefits{
+    background-color: white;
+    width: 120px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.benefits a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+#shop{
+    margin-top: 15px; 
+     font-weight: 900;
+     width: 262px;
+     font-size: 20px;
+     color: aliceblue;
+     text-decoration: none;
+}
+.numbers{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    text-align: center;
+    margin-left: 670px;
+    margin-top: 40px;
+}
+.numbers a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 19px;
+}
+footer{
+    margin-left: -8px;
+    background-color: darkgray;
+    width:101% ;
+    height: 200px;
+    margin-top: 70px;
+}
+.footA{
+    display: flex;
+    gap: 160px;
+    margin-left: 100px;
+   
+}
+.footA a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+}
+.footA a:hover{
+    color: gray;
+}
